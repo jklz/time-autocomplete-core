@@ -1,0 +1,12 @@
+*.css
+*.json
+*.scss
+*.md
+*.html
+*.info
+Dockerfile
+*.yml
+*.ico
+*.svg
+*.png
+coverage/lcov-report/*.js

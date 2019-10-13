@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "test-watch": "jest --watch"
+    "test-watch": "jest --watch",
+    "test-coverage": "jest --coverage && nodecat ./coverage/lcov.info | codacy-coverage  --token c420e8636d4347b7a6d98a5a6852a2ba"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "@babel/preset-env": "^7.6.3",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "codacy-coverage": "^3.4.0",
+    "nodecat": "^2.0.0"
   }
 }

@@ -1,19 +1,20 @@
 
 const TimeHourOptions  = require("./.internal/TimeHourOptions.json");
 
-class TimeAutocompleteCore {
+export default class  TimeAutocompleteCore {
 
     /**
      *
-     * @param Integer min
-     * @param Integer max
-     * @param Boolean is24
+     * @param {Integer} min
+     * @param {Integer} max
+     * @param {Boolean} is24
      */
-    constructor({min, max, is24}) {
+    constructor(config) {
+        const {min, max, is24} = config || {};
         /** @var Object configuration for object */
         this.config = {
-            min,
-            max,
+            min: min || null,
+            max: max || null,
             is24: !!is24,
         };
         this.currentOptions = [];
@@ -21,7 +22,7 @@ class TimeAutocompleteCore {
 
     /**
      * update config for min time
-     * @param String newValue
+     * @param {String} newValue
      */
     setMin(newValue) {
         this.config.min = newValue || null;
@@ -29,7 +30,7 @@ class TimeAutocompleteCore {
 
     /**
      * update config for max time
-     * @param String newValue
+     * @param {String} newValue
      */
     setMax(newValue) {
         this.config.max = newValue|| null;
@@ -37,7 +38,7 @@ class TimeAutocompleteCore {
 
     /**
      * update config for if 24 hour format supported
-     * @param Boolean newValue
+     * @param {Boolean} newValue
      */
     setIs24(newValue) {
         this.config.is24 = !!newValue;
@@ -45,7 +46,7 @@ class TimeAutocompleteCore {
 
     /**
      * update config for all properties passed
-     * @param Object configChanges
+     * @param {Object} configChanges
      */
     loadConfig(configChanges) {
         if (!configChanges) {
@@ -58,13 +59,23 @@ class TimeAutocompleteCore {
     }
 
     /**
+     * return current config
+     * @returns {Object}
+     */
+    getConfig() {
+        return {
+            ...this.config
+        };
+    }
+
+    /**
      * get time options for display
      * @param String input - current user input time
      * @param Object config - any changes to current config
      */
     getOptions(input, config) {
         this.loadConfig(config);
-        
+
     }
 
 }
