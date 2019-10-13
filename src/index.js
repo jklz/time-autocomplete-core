@@ -1,5 +1,5 @@
 
-import TimeHourOptions from "./.internal/TimeHourOptions";
+const TimeHourOptions  = require("./.internal/TimeHourOptions.json");
 
 const defaultProps = {
     min: null,
