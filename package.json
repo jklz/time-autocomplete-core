@@ -19,7 +19,9 @@
     "url": "https://github.com/jklz/time-autocomplete-core/issues"
   },
   "homepage": "https://github.com/jklz/time-autocomplete-core#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
