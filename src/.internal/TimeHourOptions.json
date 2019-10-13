@@ -1,0 +1,146 @@
+[
+    {
+        "label": "12",
+        "meridian": "am",
+        "value12": "12",
+        "value24": "00"
+    },
+    {
+        "label": "1",
+        "meridian": "am",
+        "value12": "01",
+        "value24": "01"
+    },
+    {
+        "label": "2",
+        "meridian": "am",
+        "value12": "02",
+        "value24": "02"
+    },
+    {
+        "label": "3",
+        "meridian": "am",
+        "value12": "03",
+        "value24": "03"
+    },
+    {
+        "label": "4",
+        "meridian": "am",
+        "value12": "04",
+        "value24": "04"
+    },
+    {
+        "label": "5",
+        "meridian": "am",
+        "value12": "05",
+        "value24": "05"
+    },
+    {
+        "label": "6",
+        "meridian": "am",
+        "value12": "06",
+        "value24": "06"
+    },
+    {
+        "label": "7",
+        "meridian": "am",
+        "value12": "07",
+        "value24": "07"
+    },
+    {
+        "label": "8",
+        "meridian": "am",
+        "value12": "08",
+        "value24": "08"
+    },
+    {
+        "label": "9",
+        "meridian": "am",
+        "value12": "09",
+        "value24": "09"
+    },
+    {
+        "label": "10",
+        "meridian": "am",
+        "value12": "10",
+        "value24": "10"
+    },
+    {
+        "label": "11",
+        "meridian": "am",
+        "value12": "11",
+        "value24": "11"
+    },
+    {
+        "label": "12",
+        "meridian": "pm",
+        "value12": "12",
+        "value24": "12"
+    },
+    {
+        "label": "1",
+        "meridian": "pm",
+        "value12": "01",
+        "value24": "13"
+    },
+    {
+        "label": "2",
+        "meridian": "pm",
+        "value12": "02",
+        "value24": "14"
+    },
+    {
+        "label": "3",
+        "meridian": "pm",
+        "value12": "03",
+        "value24": "15"
+    },
+    {
+        "label": "4",
+        "meridian": "pm",
+        "value12": "04",
+        "value24": "16"
+    },
+    {
+        "label": "5",
+        "meridian": "pm",
+        "value12": "05",
+        "value24": "17"
+    },
+    {
+        "label": "6",
+        "meridian": "pm",
+        "value12": "06",
+        "value24": "18"
+    },
+    {
+        "label": "7",
+        "meridian": "pm",
+        "value12": "07",
+        "value24": "19"
+    },
+    {
+        "label": "8",
+        "meridian": "pm",
+        "value12": "08",
+        "value24": "20"
+    },
+    {
+        "label": "9",
+        "meridian": "pm",
+        "value12": "09",
+        "value24": "21"
+    },
+    {
+        "label": "10",
+        "meridian": "pm",
+        "value12": "10",
+        "value24": "22"
+    },
+    {
+        "label": "11",
+        "meridian": "pm",
+        "value12": "11",
+        "value24": "23"
+    }
+]

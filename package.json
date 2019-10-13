@@ -1,0 +1,26 @@
+{
+  "name": "time-autocomplete-core",
+  "version": "1.0.0",
+  "description": "Core processing for time-autocomplete",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jklz/time-autocomplete-core.git"
+  },
+  "keywords": [],
+  "author": "Jared Spencer <jklz@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jklz/time-autocomplete-core/issues"
+  },
+  "homepage": "https://github.com/jklz/time-autocomplete-core#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
