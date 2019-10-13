@@ -1,21 +1,19 @@
-matrix:
+language: node_js
+node_js:
+  - "node"
+  - "8"
+  - "7"
+  - "6"
+sudo: false
+before_install: if [[ `npm -v` == 2* ]]; then npm i -g npm@3; fi
+install:
+  - npm install
+script: npm run test
+jobs:
   include:
-    - language: "node_js"
-        node_js:
-          - "node"
-          - "8"
-          - "7"
-          - "6"
-        sudo: false
-        install:
-          - npm install
-        script: npm run test
-    - language: "node_js"
-        node_js:
-          - "node"
-        sudo: false
-        install:
-          - npm install
-        script: npm run test-coverage
-notifications:
-  email: false
+    - stage: Coverage
+      node_js: "node"
+      sudo: false
+      install:
+        - npm install
+      script: npm run test-coverage
