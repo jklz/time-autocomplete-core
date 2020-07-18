@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/jklz/time-autocomplete-core#readme",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
